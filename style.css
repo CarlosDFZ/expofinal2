@@ -1,0 +1,136 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(202, 52, 202);
+    background-color: black;
+}
+
+h3{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#secciones{
+    background-color: rgba(69, 128, 179, 0.454);
+    width:  400px;
+    height: 400px;
+    align-self: center;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+}
+
+#secciones .img1{
+    background-image: url(img/pubg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  200px;
+    height: 200px;
+}
+
+#secciones h4{
+    size: 200rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Parte dos */
+
+#secciones2{
+    background-color: rgba(18, 88, 149, 0.642);
+    width:  400px;
+    height: 400px;
+    align-self: center;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+}
+
+#secciones2 .img2{
+    background-image: url(img/dormir.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  230px;
+    height: 170px;
+}
+
+#secciones2 h4{
+    size: 200rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Parte 3 */
+
+#secciones3{
+    background-color: rgba(29, 118, 201, 0.642);
+    width:  400px;
+    height: 400px;
+    align-self: center;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+}
+
+#secciones3 .img3{
+    background-image: url(img/queen.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:  300px;
+    height: 150px;
+}
+
+#secciones3 h4{
+    size: 200rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: forestgreen;
+}
+
+footer{
+    background-color: rgb(14, 153, 239);
+}
+
+.contenedor .anim{
+    width:  200px;
+    height:200px;
+}
+
+.anim{
+    animation: myAnim 2s infinite;
+    animation-timing-function: linear;
+    background-image: url(img/yo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@keyframes myAnim {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
+}
